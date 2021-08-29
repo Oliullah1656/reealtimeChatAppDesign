@@ -1,0 +1,20 @@
+.headingWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.headingWrapper h1 {
+  font-size: 22px;
+  font-weight: bold;
+}
+img {
+  height: 25px;
+}
+
+.signin {
+  color: #0077ff;
+}
+.text {
+  width: 320px;
+}

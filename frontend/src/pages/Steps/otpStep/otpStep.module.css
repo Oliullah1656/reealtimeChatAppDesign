@@ -1,0 +1,59 @@
+.inputWraper img {
+  height: 35px;
+}
+.input {
+  display: flex;
+  justify-content: center;
+}
+.input input {
+  margin-top: 20px;
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: #262626;
+  color: #fff;
+  font-size: 27px;
+  padding: 20px;
+}
+.input input:last-child {
+  margin-right: 0px;
+}
+p {
+  font-weight: 300;
+  width: 310px;
+  font-size: 14px;
+  margin: 0 auto;
+  color: #c4c5c5;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #454545;
+  font-size: 25px;
+  margin: 20px;
+  /* height: 30px; */
+  vertical-align: middle;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: red;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: red;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
